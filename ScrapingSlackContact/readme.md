@@ -116,4 +116,4 @@ except:
 ```
 
 # Open Source Code
-I put the code in my github, if you need view full code, please refer to [github]().
+I put the code in my github, if you need view full code, please refer to [github](https://github.com/automation9417/automation-samples/tree/main/ScrapingSlackContact).
