@@ -3,7 +3,7 @@ Slack Automation Sample - Scraping contact list from one channel
 # Background
 Recently, I need to monitor contact info of some slack channels, but I don't have API to invoke. So I need use UI Automation to finish this task.
 I found this library recently [Clicknium](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium), besides support web automation like selenium, it also support desktop automation, that is useful for me.
-You can follow the getting started of this Visual Studio Code extension to setup enviroment, less than 2 minutes for me.
+You can follow the getting started of this Visual Studio Code extension to setup environment, less than 2 minutes for me.
 
 # Slack client automation - Scraping the contact list
 - Auto select group and channel.
