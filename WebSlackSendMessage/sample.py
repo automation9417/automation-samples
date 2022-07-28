@@ -14,7 +14,7 @@ sign_in_email_or_phone="" #google email or slack email
 sign_in_password="" #account passwword
 
 #slack config
-slack_community_url="" #The URL of the slack community you want to send essage. e.g."https://contoso.slack.com"
+slack_community_url="" #The URL of the slack community you want to send essage. e.g."https://example.slack.com"
 slack_channel_name="" #The name of the channel you want to send message.
 slack_message="" #The message content
 
@@ -33,9 +33,9 @@ def close_open_desk():
 
 def use_slack_in_browser():
     print("Click use slack in browser button.")
-    btn=clicknium.wait_appear(locator.websites.slack.use_slack_in_browser_button,wait_timeout=5)      
-    if btn:
-        btn.click()
+    use_slack_in_browser_button=clicknium.wait_appear(locator.websites.slack.use_slack_in_browser_button,wait_timeout=5)      
+    if use_slack_in_browser_button:
+        use_slack_in_browser_button.click()
     else:
         print("use slack in browser button not found.")
 

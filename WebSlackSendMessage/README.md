@@ -94,7 +94,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
       from clicknium import clicknium, locator
       def use_slack_in_browser():
           use_slack_in_browser_button=clicknium.wait_appear(locator.websites.slack.use_slack_in_browser_button,wait_timeout=5)      
-          if btn:
+          if use_slack_in_browser_button:
               use_slack_in_browser_button.click()
       ```    
 5. Open search channel page.  
