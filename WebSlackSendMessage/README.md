@@ -28,7 +28,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
   ```
 - Fill the slack config in `main.py`
   ```python
-  slack_community_url="" #The URL of the slack community you want to send essage. e.g."https://contoso.slack.com"
+  slack_community_url="" #The URL of the slack community you want to send essage. e.g."https://example.slack.com"
   slack_channel_name="" #The name of the channel you want to send message.
   slack_message="" #The message content
   ```
@@ -76,40 +76,56 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
         clicknium.find_element(locator.websites.slack.slack_password_input).set_text(password)
         clicknium.find_element(locator.websites.slack.slack_signin_btn).click()
     ```
-3. Oepn search channel page.  
-![](imgs/slack_browser_channels.png)  
-  - Expanded `Channels`   
-  - Click `Add channels`  
-  - Click `Browse channels` 
+3. Cancel open slack desktop app  
+![](imgs/cancle_open_slack_desktop.png)
+  - Click `Cancel` button
+      ```python
+      from clicknium import clicknium, locator
+      from clicknium.common.enums import *
+      def close_open_desk():
+          open_slack_cancel_btn= clicknium.wait_appear(locator.desktops.chrome.open_slack_win_cancel_btn,wait_timeout=10)  
+          if open_slack_cancel_btn:
+              open_slack_cancel_btn.click(by=MouseActionBy.MouseEmulation) 
+      ```
+4. Choose use slack in browser  
+![](imgs/choose_use_slack_in_browser.png)  
+  - Click `use Slack in your browser`
+      ```python
+      from clicknium import clicknium, locator
+      def use_slack_in_browser():
+          use_slack_in_browser_button=clicknium.wait_appear(locator.websites.slack.use_slack_in_browser_button,wait_timeout=5)      
+          if btn:
+              use_slack_in_browser_button.click()
+      ```    
+5. Open search channel page.  
+![](imgs/all_channels.png)  
+  - Send hot key `Ctrl+Shift+L` to open search change page
     ```python
-    from msilib.schema import Error
-    from clicknium import clicknium, locator
-
     def browse_channels():
-        channels_menu_outter_div=clicknium.wait_appear(locator.websites.app_slack.channels_menu_outter_div,wait_timeout=5) 
-        if channels_menu_outter_div:
-            menu_collapsed=channels_menu_outter_div.get_property("data-qa-channel-section-collapsed")
-            if menu_collapsed=="true":
-                clicknium.find_element(locator.websites.app_slack.channels_menu_inner_span).click()
+        channels_menu_inner_span=clicknium.wait_appear(locator.websites.app_slack.channels_menu_inner_span,wait_timeout=5) 
+        if channels_menu_inner_span:
+            clicknium.send_hotkey("{CTRL}{SHIFT}L")
+            sleep(1)
         else:
             msg="channels menu not found."
             raise Error(msg)
-
-        clicknium.find_element(locator.websites.app_slack.add_channel_btn).click() 
-        clicknium.find_element(locator.websites.app_slack.browser_channel_btn).click()
     ``` 
-4. Search and select the target channel.  
+6. Search and select the target channel.  
 ![](imgs/slack_search_select_channel.png)  
   - Enter the target channel name  
   - Click the `Search` icon  
+  - Choose sort `A to Z`  
+  ![](imgs/choose_sort_way.png)  
+
   - Select the target channel  
     ```python
     from msilib.schema import Error
     from clicknium import clicknium, locator
-
     def search_and_select_channel(channel_name):
         clicknium.find_element(locator.websites.app_slack.search_channel_tbx).set_text(channel_name)
         clicknium.find_element(locator.websites.app_slack.search_channel_btn).click()
+        clicknium.find_element(locator.websites.app_slack.channel_sort_btn).click()
+        clicknium.find_element(locator.websites.app_slack.sort_atoz_btn).click()
         matched_result_span=clicknium.wait_appear(locator.websites.app_slack.matched_result_span,{"channel_name": channel_name})
         if matched_result_span:
             matched_result_span.click()
@@ -117,7 +133,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
             msg="No matched channel for "+channel_name
             raise Error(msg)
     ```
-5. Enter the message and send.  
+7. Enter the message and send.  
 ![](imgs/enter_message_and_send.png)  
   - Enter message
   - Click the `Send` icon
@@ -135,7 +151,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
         clicknium.send_hotkey('{CTRL}V')
         clicknium.find_element(locator.websites.app_slack.send_message_btn).click()
     ```
-6. Sign out.  
+8. Sign out.  
 ![](imgs/slack_sign_out.png)  
   - Click user avatar
   - Click `Sign out` 
@@ -148,20 +164,22 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
             user_avatar_btn.click()
             clicknium.find_element(locator.websites.app_slack.sign_out_btn).click()
     ```
-7. Close opened browser tab.  
+9. Close opened browser tab.  
    ```python  
    browser_tab.close()# close the opened browser tab.
    ``` 
 # Tips 
 - Pass variable to the locator  
-In this sample we pass channel name to the `matched_result_span` locator as following
+In this sample channel name is passed to the `matched_result_span` locator as following
   - Define variable in locator  
    ![](imgs/pass_variable.png)  
   -  Pass variable in code
       ```python
       matched_result_span=clicknium.wait_appear(locator.websites.app_slack.matched_result_span,{"channel_name": channel_name})
       ```
-
+- Use wildcard in locator  
+In this sample `channel_sort_btn` locator's sInfo is updated end with * as following
+![](imgs/sort_btn_wildcard.png)  
 # Concepts  
 [Clicknium](https://www.clicknium.com/) provides excellent ways of the recorder and the concept of the Locator, which helps you finish developing efficiently without lots of details. Hence it is worth getting to know the concepts below.
 1. [Locator](https://www.clicknium.com/documents/automation/locator)

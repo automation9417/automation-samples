@@ -1,32 +1,30 @@
 from msilib.schema import Error
+from time import sleep
 from clicknium import clicknium, locator
 import pyperclip
 
 def browse_channels():
     print("Wait channels menu.")
-    channels_menu_outter_div=clicknium.wait_appear(locator.websites.app_slack.channels_menu_outter_div,wait_timeout=5) 
-    if channels_menu_outter_div:
-        print("Get channels data-qa-channel-section-collapsed property.")
-        menu_collapsed=channels_menu_outter_div.get_property("data-qa-channel-section-collapsed")
-        print("menu_collapsed:"+menu_collapsed)
-        if menu_collapsed=="true":
-            print("Click channels menu inner span.")
-            clicknium.find_element(locator.websites.app_slack.channels_menu_inner_span).click()
+    channels_menu_inner_span=clicknium.wait_appear(locator.websites.app_slack.channels_menu_inner_span,wait_timeout=5) 
+    if channels_menu_inner_span:
+        print("Send hot key Ctrl+Shift+L to open browse channel page")
+        clicknium.send_hotkey("{CTRL}{SHIFT}L")
+        print("sleep 1 second")
+        sleep(1)
     else:
         msg="channels menu not found."
         print(msg)
         raise Error(msg)
-
-    print("Click add channel button.")
-    clicknium.find_element(locator.websites.app_slack.add_channel_btn).click() 
-    print("Click browser channel button.")
-    clicknium.find_element(locator.websites.app_slack.browser_channel_btn).click()
 
 def search_and_select_channel(channel_name):
     print("Enter channel name for search.")
     clicknium.find_element(locator.websites.app_slack.search_channel_tbx).set_text(channel_name)
     print("Click search button.")
     clicknium.find_element(locator.websites.app_slack.search_channel_btn).click()
+    print("Click sort button.")
+    clicknium.find_element(locator.websites.app_slack.channel_sort_btn).click()
+    print("Click A to Z")
+    clicknium.find_element(locator.websites.app_slack.sort_atoz_btn).click()
     print("Wait search result appear.")
     matched_result_span=clicknium.wait_appear(locator.websites.app_slack.matched_result_span,{"channel_name": channel_name})
     if matched_result_span:
