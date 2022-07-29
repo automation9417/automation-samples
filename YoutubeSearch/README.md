@@ -29,15 +29,15 @@ git clone https://github.com/automation9417/automation-samples.git
 
 # Concepts
 [Clicknium](https://www.clicknium.com/) provides excellent ways of the recorder and the concept of the Locator, which helps you finish developing efficiently without lots of details. Hence it is worth getting to know the concepts below.
-1. [Locator](https://www.clicknium.com/documents/automation/locator)
-2. [Recorder](https://www.clicknium.com/documents/developtools/vscode/recorder/)  
+1. [Locator](https://www.clicknium.com/documents/concepts/locator)
+2. [Recorder](https://www.clicknium.com/documents/tutorial/recorder/)  
 **functions involved**
-3. [click](https://www.clicknium.com/documents/api/python/uielement/click)
-4. [set_text](https://www.clicknium.com/documents/api/python/uielement/set_text)
-5. [attach_by_title_url](https://www.clicknium.com/documents/api/python/webdriver/attach_by_title_url)
+3. [click](https://www.clicknium.com/documents/references/python/uielement/click)
+4. [set_text](https://www.clicknium.com/documents/references/python/uielement/set_text)
+5. [attach_by_title_url](https://www.clicknium.com/documents/references/python/webdriver/attach_by_title_url)
 
 # Get Started
-1. Create a new folder. Open Visual Studio Code and press the keyboard shortcut `Ctrl+Shift+P` to select [Clicknium: Sample](https://www.clicknium.com/documents/developtools/vscode/project_management) and select the newly created folder.
+1. Create a new folder. Open Visual Studio Code and press the keyboard shortcut `Ctrl+Shift+P` to select [Clicknium: Sample](https://www.clicknium.com/documents/tutorial/vscode/project_management) and select the newly created folder.
 2. pip install clicknium
 3. Open sample.py and follow the steps above
    Attaching the complete code as below.
