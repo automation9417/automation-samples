@@ -13,7 +13,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
 >- Need run this sample in English region. 
 
 # Run this sample
-- Follow [clicknium getting started](https://www.clicknium.com/documents) to set up develop environment.
+- Follow [clicknium getting started](https://www.clicknium.com/documents/quickstart) to set up develop environment.
 - Clone [sample repo](https://github.com/automation9417/automation-samples.git).
   ```
   git clone https://github.com/automation9417/automation-samples.git
@@ -182,21 +182,21 @@ In this sample `channel_sort_btn` locator's sInfo is updated end with * as follo
 ![](imgs/sort_btn_wildcard.png)  
 # Concepts  
 [Clicknium](https://www.clicknium.com/) provides excellent ways of the recorder and the concept of the Locator, which helps you finish developing efficiently without lots of details. Hence it is worth getting to know the concepts below.
-1. [Locator](https://www.clicknium.com/documents/automation/locator)
-2. [Recorder](https://www.clicknium.com/documents/developtools/vscode/recorder/)  
+1. [Locator](https://www.clicknium.com/documents/concepts/locator)
+2. [Recorder](https://www.clicknium.com/documents/tutorial/recorder/)  
 > **Functions involved**
->- [click](https://www.clicknium.com/documents/api/python/uielement/click)
->- [set_text](https://www.clicknium.com/documents/api/python/uielement/set_text)
->- [open browser](https://www.clicknium.com/documents/api/python/webdriver/open)
->- [wait_appear](https://www.clicknium.com/documents/api/python/globalfunctions/wait_appear)
->- [activate browser tab](https://www.clicknium.com/documents/api/python/webdriver/browser/browsertab/activate)
->- [close browser tab](https://www.clicknium.com/documents/api/python/webdriver/browser/browsertab/close)
->- [find_element](https://www.clicknium.com/documents/api/python/globalfunctions/find_element)
->- [set_focus](https://www.clicknium.com/documents/api/python/uielement/set_focus)
->- [get_property](https://www.clicknium.com/documents/api/python/uielement/get_property)
->- [send_hotkey](https://www.clicknium.com/documents/api/python/globalfunctions/send_hotkey)  
+>- [click](https://www.clicknium.com/documents/references/python/uielement/click)
+>- [set_text](https://www.clicknium.com/documents/references/python/uielement/set_text)
+>- [open browser](https://www.clicknium.com/documents/references/python/webdriver/open)
+>- [wait_appear](https://www.clicknium.com/documents/references/python/globalfunctions/wait_appear)
+>- [activate browser tab](https://www.clicknium.com/documents/references/python/webdriver/browser/browsertab/activate)
+>- [close browser tab](https://www.clicknium.com/documents/references/python/webdriver/browser/browsertab/close)
+>- [find_element](https://www.clicknium.com/documents/references/python/webdriver/browser/browsertab/find_element)
+>- [set_focus](https://www.clicknium.com/documents/references/python/uielement/set_focus)
+>- [get_property](https://www.clicknium.com/documents/references/python/uielement/get_property)
+>- [send_hotkey](https://www.clicknium.com/documents/references/python/uielement/send_hotkey)  
 # Get Started
-1. Create a new folder. Open Visual Studio Code and press the keyboard shortcut `Ctrl+Shift+P` to select [Clicknium: Sample](https://www.clicknium.com/documents/developtools/vscode/project_management) and select the newly created folder.
+1. Create a new folder. Open Visual Studio Code and press the keyboard shortcut `Ctrl+Shift+P` to select [Clicknium: Sample](https://www.clicknium.com/documents/tutorial/vscode/project_management) and select the newly created folder.
 2. pip install clicknium
 3. pip install pyperclip
 4. Copy the '.locator' folder under 'WebSlackSendMessage' to your new created folder

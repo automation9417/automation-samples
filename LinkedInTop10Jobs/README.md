@@ -20,7 +20,7 @@ pip install clicknium
 pip install pywin32
 ```
 
-3. Install Clicknium Chrome extension, about the installation refer to [Chrome Extension](https://www.clicknium.com/documents/developtools/vscode/extensions/chromeextension)
+3. Install Clicknium Chrome extension, about the installation refer to [Chrome Extension](https://www.clicknium.com/documents/tutorial/extensions/chromeextension)
 
 ```
 from clicknium import clicknium as cc
