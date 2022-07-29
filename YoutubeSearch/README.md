@@ -9,7 +9,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
 - Python 3.10.5
 - Chrome 103.0.5060.134
 # Run this sample
-- follow [clicknium getting started](https://www.clicknium.com/documents) to set up develop environment.
+- follow [clicknium getting started](https://www.clicknium.com/documents/quickstart) to set up develop environment.
 - clone [sample repo](https://github.com/automation9417/automation-samples.git).
 ```
 git clone https://github.com/automation9417/automation-samples.git

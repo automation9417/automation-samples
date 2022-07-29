@@ -13,7 +13,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
 >- Need run this sample in English region. 
 
 # Run this sample
-- Follow [clicknium getting started](https://www.clicknium.com/documents) to set up develop environment.
+- Follow [clicknium getting started](https://www.clicknium.com/documents/quickstart) to set up develop environment.
 - Clone [sample repo](https://github.com/automation9417/automation-samples.git).
   ```
   git clone https://github.com/automation9417/automation-samples.git
