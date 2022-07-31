@@ -26,7 +26,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
   sign_in_email_or_phone="" #google email or slack email
   sign_in_password="" #account passwword
   ```
-- Fill the slack config in `main.py`
+- Fill the slack config in `sample.py`
   ```python
   slack_community_url="" #The URL of the slack community you want to send essage. e.g."https://example.slack.com"
   slack_channel_name="" #The name of the channel you want to send message.
