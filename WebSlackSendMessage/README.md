@@ -5,7 +5,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
 # Environment Preparations
 - Windows 10
 - Visual Studio Code 1.69.2
-- Clicknium 0.1.2
+- Clicknium 0.1.3
 - Python 3.10.5
 - Chrome 103.0.5060.134
 - Python package pyperclip
@@ -104,7 +104,7 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
     def browse_channels():
         channels_menu_inner_span=clicknium.wait_appear(locator.websites.app_slack.channels_menu_inner_span,wait_timeout=5) 
         if channels_menu_inner_span:
-            clicknium.send_hotkey("{CTRL}{SHIFT}L")
+            clicknium.send_hotkey("^+l")
             sleep(1)
         else:
             msg="channels menu not found."
@@ -145,10 +145,10 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
         navigate_to_browser_channel_page()
         search_and_select_channel(channel_name)
         clicknium.find_element(locator.websites.app_slack.channel_message_input).set_focus()
-        clicknium.send_hotkey('{CTRL}A')
-        clicknium.send_hotkey('{CTRL}X')
+        clicknium.send_hotkey('^a')
+        clicknium.send_hotkey('^x')
         pyperclip.copy(message)
-        clicknium.send_hotkey('{CTRL}V')
+        clicknium.send_hotkey('^v')
         clicknium.find_element(locator.websites.app_slack.send_message_btn).click()
     ```
 8. Sign out.  
