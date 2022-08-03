@@ -27,4 +27,3 @@ tab.close()
 print(titles)
 print(artists)
 print(links)
-
