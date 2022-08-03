@@ -11,7 +11,7 @@ based on group name, auto click on the left navigation bar:
 
 ![group](img/group.png)
 
-I use [Clicknium Recorder](https://www.clicknium.com/documents/developtools/vscode/recorder/) to record the UI element on slack, and update it with parameter {{group}} as the following, for parametric locator, please refer to [Clicknium Document](https://www.clicknium.com/documents)
+I use [Clicknium Recorder](https://www.clicknium.com/documents/tutorial/recorder/) to record the UI element on slack, and update it with parameter {{group}} as the following, for parametric locator, please refer to [Clicknium Document](https://www.clicknium.com/documents)
 
 ![group locator](img/locator_group.png)
 

@@ -1,0 +1,2 @@
+clicknium==0.1.2
+pywin32==304
