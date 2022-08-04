@@ -1,8 +1,8 @@
-# Automatically scrape a list of stackoverflow questions
+# Automatically scrape a list of stack overflow questions
 
-Recently following questions on stackoverflow of certain tag or searching keywords, So I want to write automation python program to help me do monitoring, automatically open the browser, search for the specified keyword, and then save or send me the list of the first 30 questions.
+Recently following questions on stack overflow of certain tag or searching keywords, So I want to write automation python program to help me do monitoring, automatically open the browser, search for the specified keyword, and then save or send me the list of the first 30 questions.
 
-The source code can be obtained from[github](https://github.com/automation9417/automation-samples/tree/main/StackOverflow),, and the following is my development process.
+The source code can be obtained from[github](https://github.com/automation9417/automation-samples/tree/main/StackOverflow), and the following is my development process.
 
 ## Development environment
 - windows 10
@@ -57,6 +57,6 @@ if elem != None:
 Here is the locator for the question title element
 ![locator1](img/locator1.png)
 
-Through `find_elements1`, you can get the list of all elements at one time, and then get the text through `get_text()`. For links, you can also get the attribute href through `get_property('href')`.
+Through `find_elements`, you can get the list of all elements at one time, and then get the text through `get_text()`. For links, you can also get the attribute href through `get_property('href')`.
 
 
