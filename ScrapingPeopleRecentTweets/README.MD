@@ -84,7 +84,6 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
 ![](imgs/search_target_user.png)   
 
     ```python
-    from distutils.fancy_getopt import FancyGetopt
     from time import sleep
     from msilib.schema import Error
     from clicknium import clicknium, locator,ui
@@ -116,7 +115,6 @@ We can start this simple beginner process quickly with [Clicknium](https://www.c
 ![](imgs/get_tweets.png)  
   - Use [get_text](https://www.clicknium.com/documents/references/python/uielement/get_text) to get the tweets publish date, content and link, the result will be saved to a CSV file.  
     ```python
-    from distutils.fancy_getopt import FancyGetopt
     from time import sleep
     from msilib.schema import Error
     from clicknium import clicknium, locator,ui
