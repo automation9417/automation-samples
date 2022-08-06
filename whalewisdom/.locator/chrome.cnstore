@@ -1,0 +1,498 @@
+﻿{
+  "nodes": [
+    {
+      "nodes": [],
+      "locators": [
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "BERKSHIRE HATHAWAY INC Top 13F Holdings"
+                  },
+                  "url": {
+                    "value": "https://whalewisdom.com/filer/berkshire-hathaway-inc#tabholdings_tab_link",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "btn btn-default dropdown-toggle",
+                        "excluded": false
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "holdings-by-quarter",
+                        "excluded": false
+                      },
+                      "ancestorClass": {
+                        "value": "btn-group dropdown",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>fieldset>div>div>div>div>span>span>button",
+                        "excluded": false
+                      },
+                      "sInfo": {
+                        "value": "25",
+                        "excluded": false
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": false
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "aa670465-ec7d-4a03-bb75-5d46365c33b2.jpg",
+          "id": "a374196a-76bc-4f0c-9762-e21af4895a97",
+          "name": "button_25"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "BERKSHIRE HATHAWAY INC Top 13F Holdings"
+                  },
+                  "url": {
+                    "value": "https://whalewisdom.com/filer/berkshire-hathaway-inc#tabholdings_tab_link",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "A"
+                      },
+                      "ancestorId": {
+                        "value": "holdings-by-quarter"
+                      },
+                      "ancestorClass": {
+                        "value": "dropdown-menu",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>fieldset>div>div>div>div>span>span>ul>li>a",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "50"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "href": {
+                        "value": "#",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "e82fc40a-a7ee-4479-9891-3cf2d3e4a8a6.jpg",
+          "id": "cf428f3d-a6d7-4d75-a62e-ef642a3f39e3",
+          "name": "a_50"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "BERKSHIRE HATHAWAY INC Top 13F Holdings"
+                  },
+                  "url": {
+                    "value": "https://whalewisdom.com/filer/berkshire-hathaway-inc#tabholdings_tab_link",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "TABLE"
+                      },
+                      "id": {
+                        "value": "current_holdings_table"
+                      },
+                      "class": {
+                        "value": "table table-bordered table-striped table-hover"
+                      },
+                      "ancestorId": {
+                        "value": "holdings-by-quarter"
+                      },
+                      "ancestorClass": {
+                        "value": "fixed-table-body"
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>fieldset>div>div>div>div>table"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [
+                      {
+                        "identifier": {
+                          "tag": {
+                            "value": "TD"
+                          },
+                          "ancestorId": {
+                            "value": "current_holdings_table"
+                          },
+                          "ancestorClass": {
+                            "value": "table table-bordered table-striped table-hover"
+                          },
+                          "isLeaf": {
+                            "value": "1"
+                          },
+                          "cssSelector": {
+                            "value": "body>div>div>div>fieldset>div>div>div>div>table>tbody>tr>td"
+                          },
+                          "sInfo": {
+                            "value": "INFORMATION TECHNOLOGY",
+                            "excluded": true
+                          },
+                          "tableRow": {
+                            "value": "2",
+                            "excluded": true
+                          },
+                          "tableCol": {
+                            "value": "3"
+                          },
+                          "controlMetaType": "Web",
+                          "index": {
+                            "value": "1",
+                            "excluded": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "774f04be-d302-49b9-be64-a4d30d89a9b3.jpg",
+          "id": "f21068f9-8cc8-4e3a-ac77-bc6910f96ed6",
+          "name": "td_informationtechnology"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "BERKSHIRE HATHAWAY INC Top 13F Holdings"
+                  },
+                  "url": {
+                    "value": "https://whalewisdom.com/filer/berkshire-hathaway-inc#tabholdings_tab_link",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "TABLE"
+                      },
+                      "id": {
+                        "value": "current_holdings_table"
+                      },
+                      "class": {
+                        "value": "table table-bordered table-striped table-hover"
+                      },
+                      "ancestorId": {
+                        "value": "holdings-by-quarter"
+                      },
+                      "ancestorClass": {
+                        "value": "fixed-table-body"
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>fieldset>div>div>div>div>table"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [
+                      {
+                        "identifier": {
+                          "tag": {
+                            "value": "TD"
+                          },
+                          "ancestorId": {
+                            "value": "current_holdings_table"
+                          },
+                          "ancestorClass": {
+                            "value": "table table-bordered table-striped table-hover"
+                          },
+                          "isLeaf": {
+                            "value": "1"
+                          },
+                          "cssSelector": {
+                            "value": "body>div>div>div>fieldset>div>div>div>div>table>tbody>tr>td"
+                          },
+                          "sInfo": {
+                            "value": "890,923,410",
+                            "excluded": true
+                          },
+                          "tableRow": {
+                            "value": "2",
+                            "excluded": true
+                          },
+                          "tableCol": {
+                            "value": "4"
+                          },
+                          "controlMetaType": "Web",
+                          "index": {
+                            "value": "1",
+                            "excluded": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "d9e9290f-e836-4668-9103-feae7727af73.jpg",
+          "id": "39b7b5af-1ea5-4fe1-9224-245dcf1639c6",
+          "name": "td_890923410"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "BERKSHIRE HATHAWAY INC Top 13F Holdings"
+                  },
+                  "url": {
+                    "value": "https://whalewisdom.com/filer/berkshire-hathaway-inc#tabholdings_tab_link",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "A"
+                      },
+                      "class": {
+                        "value": "page-link",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "holdings-by-quarter"
+                      },
+                      "ancestorClass": {
+                        "value": "page-item page-next",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>fieldset>div>div>div>div>ul>li>a",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "›"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "href": {
+                        "value": "#",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "46729804-0fdb-4d8e-847e-2518a3649a8c.jpg",
+          "id": "f8797d21-bb4d-4ee6-a3e4-cde0625dd32d",
+          "name": "a"
+        }
+      ],
+      "id": "82902079-3260-400e-9970-b5366d1b6f36",
+      "name": "whalewisdom"
+    }
+  ],
+  "locators": [],
+  "id": "ca002bd3-4503-42fc-98f5-3d6c9dde97a7",
+  "name": "chrome"
+}
