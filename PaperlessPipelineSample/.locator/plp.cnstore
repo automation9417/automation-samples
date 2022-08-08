@@ -1,0 +1,2039 @@
+﻿{
+  "nodes": [
+    {
+      "nodes": [],
+      "locators": [
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_name"
+                      },
+                      "class": {
+                        "value": "required",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-tx",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "edit-tx-input-wrapper required_true",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Transaction Name or Property Address",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "name",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "541e8240-9fd6-4687-a69e-5a18938ed580.jpg",
+          "id": "8086fa73-1f9e-4544-a67c-b20baa207fa3",
+          "name": "name"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_mls"
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-tx",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "edit-tx-input-wrapper ajax-extra-instruct",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "MLS or Transaction Number",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "mls",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "8565af28-d11c-4dc7-b03c-f5fcc44bf91b.jpg",
+          "id": "3118435b-258c-4848-88fa-54347cc65125",
+          "name": "mls"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "ancestorId": {
+                        "value": "id_status_chosen"
+                      },
+                      "ancestorClass": {
+                        "value": "chosen-single chosen-default",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>a>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "- Select Status -"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "24912918-dc4c-4ee6-b422-951e9506db31.jpg",
+          "id": "9f145081-3846-4808-9969-92e72aafcd03",
+          "name": "select_status"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "LI"
+                      },
+                      "class": {
+                        "value": "active-result"
+                      },
+                      "ancestorId": {
+                        "value": "id_status_chosen"
+                      },
+                      "ancestorClass": {
+                        "value": "chosen-results",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>ul>li",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "{{status}}",
+                        "excluded": false
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "f15c929e-49bd-4088-9955-5d4a83b5751c.jpg",
+          "id": "0ef14b55-9a8e-448c-8773-5c0072a6fe15",
+          "name": "li_status"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "ancestorId": {
+                        "value": "id_status_chosen"
+                      },
+                      "ancestorClass": {
+                        "value": "chosen-single chosen-single-with-deselect chosen-default",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>a>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "- Select Label -"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "08f8c043-874e-460d-a9a2-472ab1337964.jpg",
+          "id": "17f002c8-63e8-4a55-8e75-a897b2f5b817",
+          "name": "select_label"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "LI"
+                      },
+                      "class": {
+                        "value": "active-result"
+                      },
+                      "ancestorId": {
+                        "value": "id_status_chosen"
+                      },
+                      "ancestorClass": {
+                        "value": "chosen-results",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>ul>li",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "{{label}}",
+                        "excluded": false
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "34be84a1-9149-4061-b630-a9e847400705.jpg",
+          "id": "3291dbb1-fda8-495f-8977-0a04969c8a76",
+          "name": "li_label"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_listed_on"
+                      },
+                      "class": {
+                        "value": "datepicker has-changed has-value",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-tx",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "input-wrap icon-right",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Listing Date",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "listed_on",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "30278603-2113-4988-ac9b-fc7b22f8e825.jpg",
+          "id": "3ba419f4-4bdb-4fdc-b3e8-b13ef2d9c02e",
+          "name": "listed_date"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_accepted_on"
+                      },
+                      "class": {
+                        "value": "datepicker has-changed has-value",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-tx",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "input-wrap icon-right",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Acceptance Date",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "accepted_on",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "8da7f0eb-02a8-4185-997f-67bf5edd81ed.jpg",
+          "id": "f6680067-7af3-4c2d-8192-e6df871ca000",
+          "name": "accepted_date"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_closed_on"
+                      },
+                      "class": {
+                        "value": "datepicker has-changed",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-tx",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "input-wrap icon-right",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Close Date",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "closed_on",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "038d3e3a-3d54-4c4d-8fa4-4e9d32b68d19.jpg",
+          "id": "30c6938e-2326-4d82-af79-cf42e170999d",
+          "name": "closed_date"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_seller"
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-optional",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "edit-tx-input-wrapper",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Seller Name",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "seller",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "8a3ab629-0349-423f-b429-f1a196c5b386.jpg",
+          "id": "ae049882-7582-47aa-a07a-5e468a4c2ed2",
+          "name": "seller"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_buyer"
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-optional",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "edit-tx-input-wrapper",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Buyer Name",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "buyer",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "2766f678-a6b9-40f3-a1de-e8123b5d786d.jpg",
+          "id": "85bafd88-03ce-4bf7-b917-07b107b26672",
+          "name": "buyer"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_list_price"
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-optional",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "input-wrap",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "List Price",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "list_price",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "0ee6b743-92d8-49f8-9756-114e09f9551e.jpg",
+          "id": "3529bd00-f12f-4a2c-964d-870129715ed3",
+          "name": "list_price"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_sale_price"
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-optional",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "input-wrap",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Sale Price",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "sale_price",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "045296eb-e535-4b6f-873b-75246d5c1fa2.jpg",
+          "id": "8b82bdef-c57f-4464-a4eb-97e0712dce20",
+          "name": "sale_price"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "id_commission_amt"
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "edit-optional",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "input-wrap",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Total Commission",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "commission_amt",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "5111e69e-c886-4236-8be3-81aafb70f6cf.jpg",
+          "id": "fc1eccf0-d504-4e25-9143-bcb199b4731e",
+          "name": "commission"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "class": {
+                        "value": "search-agents has-changed",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "assign-agents",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "input-wrap icon-right",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>div>input",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "search agents"
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "8fdcfec2-def1-49b4-801a-d8bfe42d6867.jpg",
+          "id": "d75ee8b7-249a-4cda-809c-f61534a33755",
+          "name": "searchagents"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "class": {
+                        "value": "listing-check",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "checkbox",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "assign-agents",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "assign-agent-table",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>ul>li>table>tbody>tr>td>input",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "2",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "listing_agents"
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "383dfa59-165f-416d-9389-7188754f71b3.jpg",
+          "id": "4cf81a8f-dbc4-46e3-bdd7-293c4ab682ff",
+          "name": "checkbox_listing_agents"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "class": {
+                        "value": "selling-check",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "checkbox",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "assign-agents",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "assign-agent-table",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>ul>li>table>tbody>tr>td>input",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "2",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "2",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "selling_agents"
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "3fe51c74-9195-4fdd-91e5-f69200c072c9.jpg",
+          "id": "70d6f8d6-0bfc-41d1-822c-c1183fe2ea74",
+          "name": "checkbox_selling_agents"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "class": {
+                        "value": "save-transaction-btn btn-l btn-green",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "submit"
+                      },
+                      "ancestorId": {
+                        "value": "edit-tx",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "save-transaction",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Add Transaction",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "1906853d-c9e6-48f1-8372-9a1ab343f173.jpg",
+          "id": "7d99959c-5b47-4016-b2de-1da2361ca8c4",
+          "name": "addTransaction"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Add New Transaction - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/add/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "ancestorId": {
+                        "value": "assign-agents"
+                      },
+                      "ancestorClass": {
+                        "value": "assign-category search"
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>section>div>div>form>fieldset>div>div>div>div>ul>li>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Agent Results for \"{{agent}}\"",
+                        "excluded": false
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "2a335e98-8853-4881-9c23-d360901d526c.jpg",
+          "id": "8ab43e56-b0cb-48ca-bafb-28adca37de76",
+          "name": "qcManagement"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Transactions - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/tx/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "class": {
+                        "value": "nav-text",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "header-wrapper"
+                      },
+                      "ancestorClass": {
+                        "value": "header-icon-nav add-tx-nav",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>header>a>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Add Transaction"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "684e453b-b23f-4fc9-ae63-e037bc06789a.jpg",
+          "id": "08a5dcdf-4bc5-49b6-ad3f-54e1ad298470",
+          "name": "span_addtransaction"
+        }
+      ],
+      "id": "8697d7f1-6f2e-4e15-b79c-f5244fadd642",
+      "name": "trans"
+    },
+    {
+      "nodes": [],
+      "locators": [
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Log In - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/accounts/login/?next=/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "email"
+                      },
+                      "class": {
+                        "value": "signin-input email required no-error-text loadfocus",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "email",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "sign-in-form",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "sign-in",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>form>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Email",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "username",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "ea344906-83a6-4b8a-b3a4-81e956cf8671.jpg",
+          "id": "e5466807-5023-4ad8-afd0-bdc983e6032b",
+          "name": "email"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Log In - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/accounts/login/?next=/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "id": {
+                        "value": "password"
+                      },
+                      "class": {
+                        "value": "signin-input password required no-error-text",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "password",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "sign-in-form",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "sign-in",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>form>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Password",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "name": {
+                        "value": "password",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "4a10fa13-666e-4b08-864d-34f8ba2aab97.jpg",
+          "id": "16d6e168-4ce2-4773-aaed-24b4c6014d52",
+          "name": "password"
+        },
+        {
+          "content": {
+            "automationType": "Edge",
+            "processName": {
+              "value": "msedge"
+            },
+            "filePath": {
+              "value": "msedge.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Log In - Paperless Pipeline"
+                  },
+                  "url": {
+                    "value": "https://app.paperlesspipeline.com/accounts/login/?next=/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "INPUT"
+                      },
+                      "class": {
+                        "value": "sign-in-btn",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "submit"
+                      },
+                      "ancestorId": {
+                        "value": "sign-in-form",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "sign-in-submit-wrapper",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>form>div>input",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Log In",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "7f1855fb-1dbd-4bf9-a072-2ac2a70da468.jpg",
+          "id": "5e556dfd-97b2-470e-b07c-464d04a7a58b",
+          "name": "login"
+        }
+      ],
+      "originalName": "new_folder",
+      "id": "9db8fa1b-47d1-49b8-8fd4-4b9f7f054538",
+      "name": "login"
+    }
+  ],
+  "locators": [],
+  "id": "545f70cb-5185-4a57-af68-b49c3ea96807",
+  "name": "plp"
+}
