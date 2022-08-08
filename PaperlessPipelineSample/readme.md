@@ -11,7 +11,7 @@ Before starting the sample, make sure you have:
 ![ca](./img/codeArea.png)
 
 ## addTransaction.py
-This script file focus on demonstrating adding a transaction record, so it requires the web site opened and navigated to "Add Transaction" page prior running the script. 
+This script file focus on demonstrating adding a transaction record, so it requires the web site to be opened and login with a valid account prior running the script. (If you want to automate the login process, check the other script login.py)
 
 This script reads data from excel, then fills data to transaction page. The Excel file data.xlsx contains two rows of sample data. 
 

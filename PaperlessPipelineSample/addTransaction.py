@@ -9,7 +9,7 @@ def read_excel(excel_file:str, sheet_name: str = 'Sheet1'):
     dicts = excel_date_df.to_dict(orient='records')
     return dicts
 
-# fill each row data to Transaction form
+# Fill each row data to Transaction form
 def fill_tran(rec, browser: BrowserTab):
 
     # Get fileds from excel row data
@@ -73,11 +73,11 @@ if __name__ == "__main__":
     # Attach to an opened edge browser
     # to open a new browser, use cc.edge.open(url) and login to the platform
     # you may refer to login.py for the login automation process
-    tab = cc.edge.attach_by_title_url(url="https://app.paperlesspipeline.com/tx/add/")
+    tab = cc.edge.attach_by_title_url(url="https://app.paperlesspipeline.com/*")
 
     # read data from excel
     data = read_excel('data.xlsx')
-    for d in data: 
-        fill_tran(d, tab)
+    for d in data:
         # add a  new transaction by clicking "Add Transaction" button
         tab.find_element(locator.plp.trans.span_addtransaction).click()
+        fill_tran(d, tab)
