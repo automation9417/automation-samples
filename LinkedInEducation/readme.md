@@ -1,6 +1,6 @@
 # Scrape school name and years
 
-1. Copy the folder to local, the .py files and .locator folder;
+1. Copy the folder to local, including the .py files and .locator folder;
 
 2. pip install clicknium
 
