@@ -2,13 +2,13 @@
 
 First, let's look at the running video.
 
-[upload video to Tiktok, Instagram, Twitter](media/upload_video.mp4)
+[upload video to Tiktok, Instagram, Twitter](https://github.com/automation9417/automation-samples/raw/main/UploadVideo/media/upload_video.mp4)
 
 ## Material Prepared
 An mp4 video file, because twitter has a limit on the length of uploaded videos, a shortened video file has been prepared.
 A cover image for Instagram, TikTok uses the first frame of the video as cover.
 
-![media](img/media.png)
+![media](https://github.com/automation9417/automation-samples/raw/main/UploadVideo/img/media.png)
 
 ## Run Python Code
 - follow [clicknium getting started](https://www.clicknium.com/documents/quickstart) to set up develop environment.
