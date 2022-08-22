@@ -1,0 +1,1730 @@
+﻿{
+  "nodes": [
+    {
+      "nodes": [],
+      "locators": [
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Upload | TikTok"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/upload?lang=en",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "IFRAME"
+                      },
+                      "ancestorId": {
+                        "value": "main",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "jsx-834240835 main-body page-with-header em-follow",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>iframe",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "src": {
+                        "value": "https://www.tiktok.com/creator#/upload?lang=en"
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [
+                      {
+                        "identifier": {
+                          "tag": {
+                            "value": "DIV"
+                          },
+                          "class": {
+                            "value": "notranslate public-DraftEditor-content"
+                          },
+                          "ancestorId": {
+                            "value": "root"
+                          },
+                          "ancestorClass": {
+                            "value": "DraftEditor-editorContainer",
+                            "excluded": true
+                          },
+                          "isLeaf": {
+                            "value": "0",
+                            "excluded": true
+                          },
+                          "cssSelector": {
+                            "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+                            "excluded": true
+                          },
+                          "tableRow": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "tableCol": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "controlMetaType": "Web",
+                          "index": {
+                            "value": "1",
+                            "excluded": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "8784bdde-0efb-4dfe-8aca-7765cb94379e.jpg",
+          "id": "08021c2a-4a7e-413d-bc24-74603741fcec",
+          "name": "div"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Upload | TikTok"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/upload?lang=en",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "IFRAME"
+                      },
+                      "ancestorId": {
+                        "value": "main",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "jsx-834240835 main-body page-with-header em-follow",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>iframe",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "src": {
+                        "value": "https://www.tiktok.com/creator#/upload?lang=en"
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [
+                      {
+                        "identifier": {
+                          "tag": {
+                            "value": "DIV"
+                          },
+                          "class": {
+                            "value": "jsx-662133185 jsx-1690480325 candidate-v2 empty"
+                          },
+                          "ancestorId": {
+                            "value": "root"
+                          },
+                          "ancestorClass": {
+                            "value": "jsx-662133185 jsx-1690480325 bg-container-v2 empty",
+                            "excluded": true
+                          },
+                          "isLeaf": {
+                            "value": "1"
+                          },
+                          "cssSelector": {
+                            "value": "body>div>div>div>div>div>div>div>div>div>div>div",
+                            "excluded": true
+                          },
+                          "tableRow": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "tableCol": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "controlMetaType": "Web",
+                          "index": {
+                            "value": "1",
+                            "excluded": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "9d2320f2-15ad-43b1-9680-919a8c5dba61.jpg",
+          "id": "d2f5f873-480d-409f-b0c2-02c8b62d9eb6",
+          "name": "div_cover"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Upload | TikTok"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/upload?lang=en",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "IFRAME"
+                      },
+                      "ancestorId": {
+                        "value": "main",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "jsx-834240835 main-body page-with-header em-follow",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>iframe",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "src": {
+                        "value": "https://www.tiktok.com/creator#/upload?lang=en"
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [
+                      {
+                        "identifier": {
+                          "tag": {
+                            "value": "BUTTON"
+                          },
+                          "class": {
+                            "value": "css-byn4hh",
+                            "excluded": true
+                          },
+                          "type": {
+                            "value": "submit",
+                            "excluded": true
+                          },
+                          "ancestorId": {
+                            "value": "root",
+                            "excluded": true
+                          },
+                          "ancestorClass": {
+                            "value": "jsx-2404389384 file-select-button",
+                            "excluded": true
+                          },
+                          "isLeaf": {
+                            "value": "0",
+                            "excluded": true
+                          },
+                          "cssSelector": {
+                            "value": "body>div>div>div>div>div>div>div>div>div>div>button",
+                            "excluded": true
+                          },
+                          "sInfo": {
+                            "value": "Select file"
+                          },
+                          "tableRow": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "tableCol": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "controlMetaType": "Web",
+                          "index": {
+                            "value": "1",
+                            "excluded": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "6e4d9240-f7a3-42e1-ba63-a1aca35b20c8.jpg",
+          "id": "6e640756-6876-40be-b240-2ee5c2dd7d58",
+          "name": "button_selectfile"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Upload | TikTok"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/upload?lang=en",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "IFRAME"
+                      },
+                      "ancestorId": {
+                        "value": "main",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "jsx-834240835 main-body page-with-header em-follow",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>iframe",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "src": {
+                        "value": "https://www.tiktok.com/creator#/upload?lang=en"
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [
+                      {
+                        "identifier": {
+                          "tag": {
+                            "value": "BUTTON"
+                          },
+                          "class": {
+                            "value": "css-y1m958",
+                            "excluded": true
+                          },
+                          "type": {
+                            "value": "submit",
+                            "excluded": true
+                          },
+                          "ancestorId": {
+                            "value": "root",
+                            "excluded": true
+                          },
+                          "ancestorClass": {
+                            "value": "jsx-2580397738 btn-post",
+                            "excluded": true
+                          },
+                          "isLeaf": {
+                            "value": "0",
+                            "excluded": true
+                          },
+                          "cssSelector": {
+                            "value": "body>div>div>div>div>div>div>div>div>div>button",
+                            "excluded": true
+                          },
+                          "sInfo": {
+                            "value": "Post"
+                          },
+                          "tableRow": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "tableCol": {
+                            "value": "-1",
+                            "excluded": true
+                          },
+                          "controlMetaType": "Web",
+                          "index": {
+                            "value": "1",
+                            "excluded": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "c1dafad1-a2c0-43b6-912f-9e218e0f9636.jpg",
+          "id": "05b1b1e6-970a-4a7a-95e7-6e2f0aab2b85",
+          "name": "button_post"
+        }
+      ],
+      "id": "cc5eed40-294d-47a9-ac4d-2e67b6aed01b",
+      "name": "tiktok"
+    },
+    {
+      "nodes": [],
+      "locators": [
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Home / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/compose/tweet",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "DIV"
+                      },
+                      "class": {
+                        "value": "notranslate public-DraftEditor-content"
+                      },
+                      "ancestorId": {
+                        "value": "layers"
+                      },
+                      "ancestorClass": {
+                        "value": "DraftEditor-editorContainer",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>label>div>div>div>div>div>div>div>div",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tabIndex": {
+                        "value": "0"
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "2ef30573-cc63-4c83-912b-21d4da6fbf73.jpg",
+          "id": "0e1914a0-a80d-456d-8839-2ca2adefab87",
+          "name": "div"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Home / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/compose/tweet",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "svg"
+                      },
+                      "class": {
+                        "value": "r-1cvl2hr r-4qtqp9 r-yyyyoo r-z80fyv r-dnmrzs r-bnwqim r-1plcrui*"
+                      },
+                      "ancestorId": {
+                        "value": "layers",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "css-901oao r-1awozwy r-1cvl2hr r-6koalj r-18u37iz r-16y2uox r-37j5jr r-a023e6 r-b88u0q r-1777fci r-rjixqe r-bcqeeo r-q4m81j r-qvutc0",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>svg",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "d4dd4b92-a605-472e-af2f-ef4733d41efc.jpg",
+          "id": "abaaa321-ed53-4eed-82bb-0d1c6c982a05",
+          "name": "svg"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Home / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/compose/tweet",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "class": {
+                        "value": "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "layers"
+                      },
+                      "ancestorClass": {
+                        "value": "css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-a023e6 r-rjixqe r-bcqeeo r-qvutc0",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>span>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Tweet"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "5c3deb16-4d88-47cc-b9d5-f668976086b4.jpg",
+          "id": "6702c3e7-f532-49c5-9b98-d02f35fd6ac0",
+          "name": "span_tweet"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Home / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/compose/tweet",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "VIDEO"
+                      },
+                      "class": {
+                        "value": "r-1pi2tsx r-13qz1uu",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "layers"
+                      },
+                      "ancestorClass": {
+                        "value": "css-1dbjc4n r-1867qdf r-1loqt21 r-1iusvr4 r-16y2uox r-1udh08x r-13tjlyg r-11iat2r r-1ftll1t",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>video",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "7d0e968d-450b-4221-abc3-d44824838595.jpg",
+          "id": "d197cd5c-1a7f-42d8-ae3c-103eacd361d3",
+          "name": "video"
+        }
+      ],
+      "id": "ccf24060-85ed-4af7-b8a5-3648631af0ce",
+      "name": "twitter"
+    },
+    {
+      "nodes": [],
+      "locators": [
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Instagram"
+                  },
+                  "url": {
+                    "value": "https://www.instagram.com/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "svg"
+                      },
+                      "class": {
+                        "value": "_ab6-"
+                      },
+                      "ancestorId": {
+                        "value": "mount_0_0_vN",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "_abm0"
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>section>nav>div>div>div>div>div>div>div>button>div>svg"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "1395b216-dde3-4cb7-8db0-900777756113.jpg",
+          "id": "2f4c073c-bd76-48bd-8ebd-2bf540b6efbb",
+          "name": "svg_add_post"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Create new post • Instagram"
+                  },
+                  "url": {
+                    "value": "https://www.instagram.com/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "_acan _acap _acas",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "mount_0_0_jn",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "_ab8w  _ab94 _ab99 _ab9f _ab9m _ab9p _ab9x _aba7 _abcm",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>button",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Select from computer",
+                        "excluded": false
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "ced171f6-c709-4e92-9f3b-d0d7228cbefc.jpg",
+          "id": "4f211827-b9a5-486b-b458-abdae0e4d8c0",
+          "name": "button_select_file"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Create new post • Instagram"
+                  },
+                  "url": {
+                    "value": "https://www.instagram.com/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "_acan _acao _acas",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "mount_0_0_jn",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "_ab8w  _ab94 _ab99 _ab9f _ab9m _ab9p  _ab9- _abaa _abcm",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>button",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Next"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "acad5e49-0bc0-4834-b530-b57ee2ea7af7.jpg",
+          "id": "04074e63-a49e-48e7-ace9-bca876286e4e",
+          "name": "button_next"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Create new post • Instagram"
+                  },
+                  "url": {
+                    "value": "https://www.instagram.com/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "_acan _acao _acas",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "mount_0_0_3e",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "_ab8w  _ab94 _ab97 _ab9i _ab9k _ab9p _abcm",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>button",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Select from computer"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "74cbcc3e-8b13-4e09-af63-824802dee880.jpg",
+          "id": "9029de40-ffcf-4734-ac53-fc8dbbbb566f",
+          "name": "button_selectfromcomputer"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Create new post • Instagram"
+                  },
+                  "url": {
+                    "value": "https://www.instagram.com/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "TEXTAREA"
+                      },
+                      "class": {
+                        "value": "_ablz _aaeg",
+                        "excluded": false
+                      },
+                      "type": {
+                        "value": "textarea",
+                        "excluded": false
+                      },
+                      "ancestorId": {
+                        "value": "mount_0_0_jn",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "_ab8w  _ab94 _ab99 _ab9f _ab9m _ab9p _abcm",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>textarea",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "1a8f41b8-b9b6-4436-92fe-9c540e35bf67.jpg",
+          "id": "d029857e-6a5f-4fec-81f6-5f1569890e26",
+          "name": "textarea"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Create new post • Instagram"
+                  },
+                  "url": {
+                    "value": "https://www.instagram.com/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "_acan _acao _acas",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "mount_0_0_jn",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "_ab8w  _ab94 _ab99 _ab9f _ab9m _ab9p  _ab9- _abaa _abcm",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>button",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Share"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ]
+          },
+          "filePath": "01e5cfef-236f-4792-a3df-9b1a5e9982e4.jpg",
+          "id": "39e111f5-8a9e-4918-aaad-6035e74759fc",
+          "name": "button_share"
+        },
+        {
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "Create new post • Instagram"
+                  },
+                  "url": {
+                    "value": "https://www.instagram.com/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "H2"
+                      },
+                      "class": {
+                        "value": "_aacl _aacr _aact _aacx _aad6 _aadb",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "mount_0_0_Qq",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "_ab8w  _ab94 _ab97 _ab9h _ab9m _ab9o _abcm",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>h2",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Your post has been shared.",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "filePath": "18d7d4a9-a4af-4eff-8687-754d3b30bc77.jpg",
+          "id": "ffdc6266-364f-4b69-9362-fce018ebe7b1",
+          "name": "h2_yourposthasbeenshared"
+        }
+      ],
+      "id": "5ffb020a-9e5f-463f-8a73-fe495319cbf4",
+      "name": "instagram"
+    }
+  ],
+  "locators": [
+    {
+      "content": {
+        "automationType": "Uia",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "automationId": {
+                "value": "",
+                "excluded": true
+              },
+              "isPassword": {
+                "value": "False",
+                "excluded": true
+              },
+              "orientation": {
+                "value": "None",
+                "excluded": true
+              },
+              "role": {
+                "value": "pane"
+              },
+              "isDirectChild": {
+                "value": "True"
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Uia",
+              "name": {
+                "value": "*"
+              },
+              "index": {
+                "value": "1",
+                "excluded": true
+              }
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "automationId": {
+                    "value": "",
+                    "excluded": true
+                  },
+                  "isPassword": {
+                    "value": "False",
+                    "excluded": true
+                  },
+                  "orientation": {
+                    "value": "None",
+                    "excluded": true
+                  },
+                  "role": {
+                    "value": "window"
+                  },
+                  "isDirectChild": {
+                    "value": "True"
+                  },
+                  "className": {
+                    "value": "#32770"
+                  },
+                  "controlMetaType": "Uia",
+                  "name": {
+                    "value": "Open"
+                  },
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "automationId": {
+                        "value": "1148"
+                      },
+                      "isPassword": {
+                        "value": "False",
+                        "excluded": true
+                      },
+                      "orientation": {
+                        "value": "None",
+                        "excluded": true
+                      },
+                      "role": {
+                        "value": "comboBox"
+                      },
+                      "accessKey": {
+                        "value": "Alt+n"
+                      },
+                      "isDirectChild": {
+                        "value": "True"
+                      },
+                      "className": {
+                        "value": "ComboBox"
+                      },
+                      "controlMetaType": "Uia",
+                      "name": {
+                        "value": "",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [
+                      {
+                        "identifier": {
+                          "automationId": {
+                            "value": "1148"
+                          },
+                          "isPassword": {
+                            "value": "False",
+                            "excluded": true
+                          },
+                          "orientation": {
+                            "value": "None",
+                            "excluded": true
+                          },
+                          "role": {
+                            "value": "edit"
+                          },
+                          "accessKey": {
+                            "value": "Alt+n"
+                          },
+                          "isDirectChild": {
+                            "value": "True"
+                          },
+                          "className": {
+                            "value": "Edit"
+                          },
+                          "controlMetaType": "Uia",
+                          "name": {
+                            "value": "",
+                            "excluded": true
+                          },
+                          "index": {
+                            "value": "1",
+                            "excluded": true
+                          }
+                        },
+                        "childControls": [],
+                        "excluded": false
+                      }
+                    ],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      "filePath": "c338f755-2c31-4d89-8cfc-2f904552a0f0.jpg",
+      "id": "0cf39c30-296d-4896-8364-b26a1100550f",
+      "name": "edit_file"
+    },
+    {
+      "content": {
+        "automationType": "Uia",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "automationId": {
+                "value": "",
+                "excluded": true
+              },
+              "isPassword": {
+                "value": "False",
+                "excluded": true
+              },
+              "orientation": {
+                "value": "None",
+                "excluded": true
+              },
+              "role": {
+                "value": "pane"
+              },
+              "isDirectChild": {
+                "value": "True"
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Uia",
+              "name": {
+                "value": "*"
+              },
+              "index": {
+                "value": "1",
+                "excluded": true
+              }
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "automationId": {
+                    "value": "",
+                    "excluded": true
+                  },
+                  "isPassword": {
+                    "value": "False",
+                    "excluded": true
+                  },
+                  "orientation": {
+                    "value": "None",
+                    "excluded": true
+                  },
+                  "role": {
+                    "value": "window"
+                  },
+                  "isDirectChild": {
+                    "value": "True"
+                  },
+                  "className": {
+                    "value": "#32770"
+                  },
+                  "controlMetaType": "Uia",
+                  "name": {
+                    "value": "Open"
+                  },
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "automationId": {
+                        "value": "1"
+                      },
+                      "isPassword": {
+                        "value": "False",
+                        "excluded": true
+                      },
+                      "orientation": {
+                        "value": "None",
+                        "excluded": true
+                      },
+                      "role": {
+                        "value": "button"
+                      },
+                      "accessKey": {
+                        "value": "Alt+o"
+                      },
+                      "isDirectChild": {
+                        "value": "True"
+                      },
+                      "className": {
+                        "value": "Button"
+                      },
+                      "controlMetaType": "Uia",
+                      "name": {
+                        "value": "",
+                        "excluded": true
+                      },
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      "filePath": "17ee5a2e-9151-4678-9adc-96084a0a3f0c.jpg",
+      "id": "d51cb723-d7a9-40a0-8e5c-35502f25d778",
+      "name": "button_open"
+    }
+  ],
+  "id": "c5f2dd17-73d5-4b21-9693-46f06aec12c6",
+  "name": "chrome"
+}
