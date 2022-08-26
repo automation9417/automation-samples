@@ -14,7 +14,7 @@ I use parametric locator for title and author
 
 ![author](img/auther.png)
 
-As one itme may has multiple authors, so I use the following code to get multiple author's name and link:
+As one item may has multiple authors, so I use the following code to get multiple author's name and link:
 ```python
     element = tab.find_element(locator.chrome.open.div_author, {'index':index})
     authers = element.children
@@ -24,3 +24,4 @@ As one itme may has multiple authors, so I use the following code to get multipl
 ```
 
 If you want to try clicknium, you can get started with the video on clicknium official site.
+
