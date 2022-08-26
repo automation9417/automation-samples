@@ -12,7 +12,7 @@ while True:
     title = tab.find_element(locator.chrome.open.div_title, {'index':index}).get_text()
     artist = []
     link = []
-    element = tab.find_element(locator.chrome.open.div_auther, {'index':index})
+    element = tab.find_element(locator.chrome.open.div_author, {'index':index})
     authers = element.children
     for item in element.children:
         artist.append(item.get_text())

@@ -1,1 +1,178 @@
-{"id":"72ef7936-685f-4806-be37-30c3253f8b2a","name":"chrome","nodes":[{"id":"cf8389ff-d005-4e65-a6cf-065b2c889897","name":"open","nodes":[],"locators":[{"id":"4078e9bd-21ef-4b14-9e0d-20114149a5a8","name":"div_title","filePath":"c489dbfa-77a2-404f-b914-146a6eca4c9e.jpg","content":{"automationType":"Chrome","processName":{"value":"chrome"},"filePath":{"value":"chrome.exe"},"version":{"value":"1.3"},"childControls":[{"identifier":{"role":{"value":"window"},"title":{"value":"Spotify – Underground Rap yeah"},"url":{"value":"https://open.spotify.com/playlist/6iwz7yurUKaILuykiyeztu","excluded":true},"className":{"value":"Chrome_WidgetWin_1"},"controlMetaType":"Tab"},"childControls":[{"identifier":{"tag":{"value":"DIV","excluded":true},"ancestorId":{"value":"main","excluded":true},"isLeaf":{"value":"1","excluded":true},"cssSelector":{"value":"body>div>div>div>div>div>div>div>div>div>div>main>div>section>div>div>div>div>div>div>div>div>div>a>div","excluded":true},"xPath":{"value":"//div[@aria-rowindex=\"{{index}}\"]//div[contains(@class, 'standalone-ellipsis-one-line')]"},"sInfo":{"value":"40 Yard Dash","excluded":true},"tableRow":{"value":"-1","excluded":true},"tableCol":{"value":"-1","excluded":true},"controlMetaType":"Web"},"childControls":[],"excluded":false}],"excluded":false}]}},{"id":"7df6704e-8882-499e-a166-c5b3ac46fead","name":"div_auther","filePath":"a1be39ea-1186-4f6f-ab13-6b39640241a6.jpg","content":{"automationType":"Chrome","processName":{"value":"chrome"},"filePath":{"value":"chrome.exe"},"version":{"value":"1.3"},"childControls":[{"identifier":{"role":{"value":"window"},"title":{"value":"Spotify – Underground Rap yeah"},"url":{"value":"https://open.spotify.com/playlist/6iwz7yurUKaILuykiyeztu","excluded":true},"className":{"value":"Chrome_WidgetWin_1"},"controlMetaType":"Tab"},"childControls":[{"identifier":{"tag":{"value":"A","excluded":true},"ancestorId":{"value":"main","excluded":true},"isLeaf":{"value":"1","excluded":true},"cssSelector":{"value":"body>div>div>div>div>div>div>div>div>div>div>main>div>section>div>div>div>div>div>div>div>div>div>span>a","excluded":true},"xPath":{"value":"//div[@aria-rowindex=\"{{index}}\"]//span[contains(@class, 'standalone-ellipsis-one-line')]"},"sInfo":{"value":"Taylor Made","excluded":true},"tableRow":{"value":"-1","excluded":true},"tableCol":{"value":"-1","excluded":true},"tabIndex":{"value":"-1","excluded":true},"href":{"value":"/artist/0tk7KIdiUjZ6dLDCIkbzCT","excluded":true},"controlMetaType":"Web"},"childControls":[],"excluded":false}],"excluded":false}]}}]}],"locators":[]}
+{
+	"id": "72ef7936-685f-4806-be37-30c3253f8b2a",
+	"name": "chrome",
+	"nodes": [
+		{
+			"id": "cf8389ff-d005-4e65-a6cf-065b2c889897",
+			"name": "open",
+			"nodes": [],
+			"locators": [
+				{
+					"id": "4078e9bd-21ef-4b14-9e0d-20114149a5a8",
+					"name": "div_title",
+					"filePath": "c489dbfa-77a2-404f-b914-146a6eca4c9e.jpg",
+					"content": {
+						"automationType": "Chrome",
+						"processName": {
+							"value": "chrome"
+						},
+						"filePath": {
+							"value": "chrome.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"role": {
+										"value": "window"
+									},
+									"title": {
+										"value": "Spotify – Underground Rap yeah"
+									},
+									"url": {
+										"value": "https://open.spotify.com/playlist/6iwz7yurUKaILuykiyeztu",
+										"excluded": true
+									},
+									"className": {
+										"value": "Chrome_WidgetWin_1"
+									},
+									"controlMetaType": "Tab"
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "DIV",
+												"excluded": true
+											},
+											"ancestorId": {
+												"value": "main",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "1",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>div>div>div>div>div>div>div>main>div>section>div>div>div>div>div>div>div>div>div>a>div",
+												"excluded": true
+											},
+											"xPath": {
+												"value": "//div[@aria-rowindex=\"{{index}}\"]//div[contains(@class, 'standalone-ellipsis-one-line')]"
+											},
+											"sInfo": {
+												"value": "40 Yard Dash",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web"
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						]
+					}
+				},
+				{
+					"id": "7df6704e-8882-499e-a166-c5b3ac46fead",
+					"name": "div_author",
+					"filePath": "a1be39ea-1186-4f6f-ab13-6b39640241a6.jpg",
+					"content": {
+						"automationType": "Chrome",
+						"processName": {
+							"value": "chrome"
+						},
+						"filePath": {
+							"value": "chrome.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"role": {
+										"value": "window"
+									},
+									"title": {
+										"value": "Spotify – Underground Rap yeah"
+									},
+									"url": {
+										"value": "https://open.spotify.com/playlist/6iwz7yurUKaILuykiyeztu",
+										"excluded": true
+									},
+									"className": {
+										"value": "Chrome_WidgetWin_1"
+									},
+									"controlMetaType": "Tab"
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "A",
+												"excluded": true
+											},
+											"ancestorId": {
+												"value": "main",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "1",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>div>div>div>div>div>div>div>main>div>section>div>div>div>div>div>div>div>div>div>span>a",
+												"excluded": true
+											},
+											"xPath": {
+												"value": "//div[@aria-rowindex=\"{{index}}\"]//span[contains(@class, 'standalone-ellipsis-one-line')]"
+											},
+											"sInfo": {
+												"value": "Taylor Made",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tabIndex": {
+												"value": "-1",
+												"excluded": true
+											},
+											"href": {
+												"value": "/artist/0tk7KIdiUjZ6dLDCIkbzCT",
+												"excluded": true
+											},
+											"controlMetaType": "Web"
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"locators": []
+}
