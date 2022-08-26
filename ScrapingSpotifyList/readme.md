@@ -9,7 +9,7 @@ I use parametric locator for title and auther
 
 ![author](img/auther.png)
 
-As one itme may has multiple authors, so I use the following code to get multiple author's name and link:
+As one item may has multiple authors, so I use the following code to get multiple author's name and link:
 ```python
     element = tab.find_element(locator.chrome.open.div_auther, {'index':index})
     authers = element.children
